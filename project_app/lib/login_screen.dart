@@ -1,6 +1,8 @@
 /*
 Name:Nur Siti Dahlia S62584
 Program: implementation of login screen
+Reference:
+1. P/Am. (2021, November 13). Flutter - Build Toggle Show / Hide Password field [Video]. YouTube. https://www.youtube.com/watch?v=ZDdiCNsDDvw
 */
 
 import 'package:flutter/material.dart';

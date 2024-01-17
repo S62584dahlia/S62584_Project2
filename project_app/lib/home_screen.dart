@@ -1,6 +1,10 @@
 /*
 Name:Nur Siti Dahlia S62584
 Program: implementation of home screen
+Reference:
+1. dbestech. (2022, August 7). Flutter GridView Builder is Great for Performance [Video]. YouTube. https://www.youtube.com/watch?v=0blNt4XIi0g
+2. Learn With Waleed. (2023b, February 22). Flutter Basics # 13 | How to use Grid View builder [Video]. YouTube. https://www.youtube.com/watch?v=1KqFn3RnHBY
+3. ChatGPT. (n.d.-d). https://chat.openai.com/share/8da3b773-ef8b-44c3-9b04-40e87bac6fe6
 */
 
 import 'dart:ui';

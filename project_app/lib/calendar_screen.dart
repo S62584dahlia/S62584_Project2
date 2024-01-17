@@ -1,6 +1,11 @@
 /*
 Name:Nur Siti Dahlia S62584
 Program: implementation of calendar hub screen
+References:
+1. JideGuru. (2022, January 18). Flutter Tutorial: CustomPaint Basics [Video]. YouTube. https://www.youtube.com/watch?v=SmjkmP73SjM
+2. How can I make a custom calendar in Flutter? without using any plugins. (n.d.). Stack Overflow. https://stackoverflow.com/questions/72474635/how-can-i-make-a-custom-calendar-in-flutter-without-using-any-plugins
+3. Sulaihi, M. (2021, September 27). How to build a custom calendar in Flutter - LogRocket Blog. LogRocket Blog. https://blog.logrocket.com/build-custom-calendar-flutter/
+4. ChatGPT. (n.d.-e). https://chat.openai.com/share/02a468b3-9b02-4182-b22d-8b21d2418275
 */
 
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
@@ -188,7 +193,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Calendar Hub'),
-        automaticallyImplyLeading: false,
+        automaticallyImplyLeading: false,   // remove back to previous icon
         centerTitle: true,
         backgroundColor: Color.fromARGB(199, 1, 37, 138),
       ),

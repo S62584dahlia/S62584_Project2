@@ -1,6 +1,11 @@
 /*
 Name:Nur Siti Dahlia S62584
 Program: implementation of project screen
+Reference:
+1. HeyFlutter․com. (2022, January 31). Flutter Tutorial - Search & Filter ListView [2022] [Video]. YouTube. https://www.youtube.com/watch?v=ZHdg2kfKmjI
+2. showBottomSheet method - ScaffoldState class - material library - Dart API. (n.d.). https://api.flutter.dev/flutter/material/ScaffoldState/showBottomSheet.html
+3. Coding Orbit. (2022, January 12). flutter Curved Bottom Navigation Bar [Video]. YouTube. https://www.youtube.com/watch?v=gCjl6KfRhd8
+4. Lab & Exercise in Lecture
 */
 
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
@@ -8,7 +13,7 @@ import 'package:flutter/material.dart';
 import 'activity_screen.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'Model/project.dart';
+import 'model/project.dart';
 import 'calendar_screen.dart';
 import 'home_screen.dart';
 

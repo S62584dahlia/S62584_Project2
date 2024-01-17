@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'status_chart.dart';
-import 'Model/activity.dart';
+import 'model/activity.dart';
 import 'dart:core';
-
 
 class ActivityScreen extends StatefulWidget {
   final Map<String, dynamic> project;
@@ -462,7 +461,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
               },
               style: TextButton.styleFrom(
                 backgroundColor: Color.fromARGB(255, 136, 13, 13),
-                primary: Colors.white, // Change the text color here
+                primary: Colors.white, 
               ),
               child: Text('Close'),
             ),

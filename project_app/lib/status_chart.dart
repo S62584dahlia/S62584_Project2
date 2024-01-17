@@ -1,6 +1,9 @@
 /*
 Name:Nur Siti Dahlia S62584
 Program: code for a pie chart for status activities progress
+References:
+1. ChatGPT. (n.d.-c). https://chat.openai.com/share/9eafaf0d-5a15-48f3-87f2-06d3e4c192ea
+2. Flutter Mapp. (2022, October 12). Flutter CustomPaint Widget [Video]. YouTube. https://www.youtube.com/watch?v=rVGQEvXnTq8
 */
 
 import 'dart:math' as math;
